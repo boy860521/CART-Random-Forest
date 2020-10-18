@@ -189,7 +189,7 @@ class RandomForest{
                         sum.push_back(s);
                         break;
                     }
-                else if(sum[j].output.compare(samples[i].output) == 0){
+                    else if(sum[j].output.compare(samples[i].output) == 0){
                         sum[j].number++;
                         break;
                     }
